@@ -1,0 +1,19 @@
+.LanguagesContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.LanguageCard {
+    display: grid;
+    grid-template-rows: 4rem 1fr;
+}
+
+.LanguageTitle {
+    grid-row-start: 1;
+}
+
+.LanguageImage {
+    grid-row-start: 2;
+}

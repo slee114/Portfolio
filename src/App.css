@@ -1,6 +1,22 @@
+
 .App {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
 
+.vl {
+  border-left: 2px solid #04AA6D;
+  height: 200px;
+  align-self: center;
+}
+
+.vl-r {
+  border-left: 2px solid #04AA6D;
+  height: 200px;
+  align-self: flex-end;
+}
+
+.BottomLine {
+  border-bottom: 2px solid #04AA6D;
+}

@@ -1,0 +1,27 @@
+.ExperienceLeft {
+    width: 25rem;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.ExperienceTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+
+.ExperienceText {
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    width: 23rem;
+    font-size: 13px;
+}
+
+.JobTitle {
+    color: #ccd6f6;
+}
+
+.Description {
+    text-align: start;
+}

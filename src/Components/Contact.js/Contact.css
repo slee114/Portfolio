@@ -1,0 +1,43 @@
+.ModifiedSection {
+    width: 100%;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.FormContainer {
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid #04AA6D;;
+}
+
+input {
+    width: 14.8rem;
+    /* background-color: #ccd6f6; */
+}
+
+textarea {
+    width: 14.8rem;
+    /* background-color: #ccd6f6; */
+}
+
+.inputs {
+    width: 20rem;
+    height: 2rem;
+}
+
+.message {
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+
+.submitButton {
+    width: 10rem;
+    background-color: #ccd6f6;
+    border: 1px solid #ccd6f6;
+    color:#112240;
+}

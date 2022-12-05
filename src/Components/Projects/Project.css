@@ -1,0 +1,43 @@
+.Project {
+    width: 100%;
+}
+
+.ProjectContainer {
+    margin-bottom: 10rem;
+}
+
+.ProjectLeft {
+    width: 24rem;
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    border-top: 2px solid #04AA6D;
+}
+
+.ProjectTitle {
+    width: 24rem;
+    color: #64ffda;
+}
+
+.ProjectText{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: #ccd6f6;
+}
+
+.projectvl {
+    display: flex;
+    align-content: flex-start;
+}
+
+.ProjectRight {
+    width: 24rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.ProjectImage {
+    display: flex;
+    align-items: center;
+}

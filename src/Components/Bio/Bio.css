@@ -1,0 +1,48 @@
+.Section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25rem;
+    padding-left: 4rem;
+}
+
+.Container {
+    width: 55rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 30rem;
+}
+
+.BioTextContainer {
+    display: grid;
+    /* grid-template-rows: 25% 75%; */
+    padding: 1rem;
+    width: 25rem;
+    font-size: 14px;
+    min-height: 30rem;
+}
+
+.BioTextBody {
+    text-align: start;
+}
+
+.BioImageContainer {
+    display: flex;
+    border-bottom: 2px solid #04AA6D;
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    color: #64ffda;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
